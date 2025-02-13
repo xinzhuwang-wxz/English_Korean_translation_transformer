@@ -28,8 +28,8 @@ A  implementation based on transformer for translation from English to Korean
    
    So, I make train and val sets as possible as small to avoid the mistake appear to these sets to protect the training process
    
-   If you see "There are a different number of source or target sequences !!!!!STOP STOP STOP!!!!! please check the data's length and divide data again", 
-   take it easy, redo "python prepare_data.py"
+   If you see "There are a different number of source or target sequences !!!!!STOP STOP STOP!!!!! please check the data's length and divide data again" when 
+   training, take it easy, redo "python prepare_data.py"
   
    the eval.py may not avaliable cuz the test set which cantains mistake when the training process is normal will be used in eval.
    

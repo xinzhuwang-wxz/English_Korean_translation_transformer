@@ -6,13 +6,20 @@ A  implementation based on transformer for translation from English to Korean
    If you are interested in pytorch and want to improve both in theory and experence, https://github.com/sgrvinod/Deep-Tutorials-for-PyTorch.git is recommended
    
    The data used in the project comes from https://github.com/Huffon/pytorch-transformer-kor-eng.git
+
    
 2: after you clone the project, you can just enjoy it by 
+   
    down load the data called "corpus.csv", you can follow the help in prepare_data.py,
+   
    python prepare_data.py, then:
+   
    python train.py
+   
    when you get trained model, you can use:
+   
    python translate.py after modify the path simply
+
    
 3: NOTE: You may courise about why I set the train:val:test = 0.2, 0.3, 0.5. Cuz there may be a mistake in divied data sets. The corpus.csv
    contains two cols named "korean" and "english". They are one-to-one correspond, so it is not difficult to spilt the data to train, val, test

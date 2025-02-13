@@ -2,7 +2,9 @@
 A  implementation based on transformer for translation from English to Korean
 
 1: The implementation based on a fantastic tutorial, https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Transformers.git
+
    If you are interested in pytorch and want to improve both in theory and experence, https://github.com/sgrvinod/Deep-Tutorials-for-PyTorch.git is recommended
+   
    The data used in the project comes from https://github.com/Huffon/pytorch-transformer-kor-eng.git
    
 2: after you clone the project, you can just enjoy it by 
